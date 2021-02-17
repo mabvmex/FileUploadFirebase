@@ -1,14 +1,21 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
+import { APP_ROUTES } from './app.routes';
+
 import { AppComponent } from './app.component';
+import { FotosComponent } from './componentes/fotos/fotos.component';
+import { CargaComponent } from './componentes/carga/carga.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    FotosComponent,
+    CargaComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    APP_ROUTES
   ],
   providers: [],
   bootstrap: [AppComponent]
