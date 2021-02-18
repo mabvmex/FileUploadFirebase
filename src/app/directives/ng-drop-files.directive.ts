@@ -49,7 +49,6 @@ export class NgDropFilesDirective {
       }
     }
 
-    console.log(this.archivos);
   }
 
 
