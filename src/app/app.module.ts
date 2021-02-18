@@ -18,9 +18,10 @@ import { AngularFirestoreModule } from 'angularfire2/firestore';
 // import { AngularFireAuthModule } from 'angularfire2/auth';
 
 import { environment } from "src/environments/environment";
+import { NgDropFilesDirective } from './directives/ng-drop-files.directive';
 
 @NgModule({
-  declarations: [AppComponent, FotosComponent, CargaComponent],
+  declarations: [AppComponent, FotosComponent, CargaComponent, NgDropFilesDirective],
   imports: [
     BrowserModule,
     APP_ROUTES,
