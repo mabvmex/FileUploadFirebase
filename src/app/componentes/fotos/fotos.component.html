@@ -1,1 +1,14 @@
-<p>fotos works!</p>
+<div class="card-columns">
+    <div class="card" *ngFor="let item  of items | async">
+      <img class="card-img-top" [src]="item.url">
+      <div class="card-body">
+        <h5 class="card-title">{{item.nombre}}</h5>
+      </div>
+
+      <!-- <div class="card-footer">
+        <small class="text-muted">Last updated 3 mins ago</small>
+      </div> -->
+
+
+    </div>
+  </div>
